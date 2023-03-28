@@ -1,0 +1,296 @@
+/* Header inicio*/
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color:rgba(240, 193, 111, 0.902);
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+body
+{
+    font-family: sans-serif;
+    margin:0;
+    background-color:antiquewhite
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+nav a
+{
+    font-weight: 600;
+    padding-right: 10px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98)
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    height: 50px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.St
+{
+    text-shadow: 0px 3px 5px rgb(145, 130, 98);
+    font-size:25px
+}
+
+nav a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:500px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    nav
+    {
+        padding: 10px 0px;
+    }
+    
+}
+/* Header inicio Fin*/
+
+/* BANNER 1*/
+
+.banner1titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.banner1titulos h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98)
+}
+.banner1titulos h2{
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98)
+}
+
+.banner1imagen{
+    max-width:100%;
+    max-height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen1{
+    width:49%;
+    height: auto;
+  
+}
+.imagen2{
+    width:49%;
+    height: auto;
+    margin-left:0.5px;
+}
+/* Banner 1 cierre*/
+
+/* Banner 2*/
+
+.banner2seccion{
+    background-color:rgba(240, 193, 111, 0.902);
+    display: flex;
+    margin-top:60px;
+    width: 98%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.banner2textos{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+}
+.banner2textos h3{
+    font-size: 2.0em;
+    padding-bottom: 60px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98);
+}
+.banner2textos p{
+    font-size: 1.6em;
+    padding-top: 20px;
+}
+.banner2img{
+    width: 100%;
+    height: 100%;
+}
+.banner2img img{
+    margin-top: 3%;
+    width:90%;
+    height:90%;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+}
+/* Banner 2 Cierre*/
+
+/* Banner 3 Apertura*/
+
+.banner3seccion{
+    background-color:rgba(240, 193, 111, 0.902);
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:60px;
+    display: flex;
+    width: 98%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+.banner3textos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.banner3textos h3{
+    font-size: 2.0em;
+    padding-bottom: 60px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98)
+}
+.banner3textos p{
+    font-size: 1.6em;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/*Imagenes*/
+.banner3img{
+    display: flex;
+    width: 120%;
+    height: 90%;
+    margin: 1%;
+    justify-content: center;
+}
+.banner3img div{
+    padding: 1.5%; 
+    margin-bottom: 20px;
+}
+
+.banner3img div h4{
+    font-size:25px;
+    margin-left: 25%;
+}
+
+.banner3img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+}
+/* Banner 3 Cierre */
+
+/* Banner 4*/
+.banner4seccion{
+    background-color:rgba(240, 193, 111, 0.902);
+    margin-top: 60px;  
+    margin-left: 16px;
+    width: 98%;
+    
+}
+.banner4texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.banner4texto h2{
+    text-shadow: 0px 3px 5px rgb(216, 164, 52)
+}
+
+
+/*IMAGEN*/
+
+.banner4img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner4img div{
+    display: flex;
+    flex-direction: column;
+    padding: 1%; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.banner4img img{
+    width: 50%;
+    height: 150px;
+    border-radius: 1%;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+}
+.bannerinternotext{
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    background-color:antiquewhite;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.banner4img div p{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.banner4img div h5{
+    font-size:20px;
+}
+/* Banner 4 Cierre*/
+
+/* Banner 5 Footer*/
+.footersection{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color:rgba(240, 193, 111, 0.902);
+}
+.footer{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98)
+}
+.footer p{
+    font-size: 15px;
+}
+/* Banner 5 Cierra*/
