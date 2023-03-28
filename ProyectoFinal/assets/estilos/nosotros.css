@@ -1,0 +1,212 @@
+/* Header inicio*/
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color:rgba(240, 193, 111, 0.902);
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+body
+{
+    font-family: sans-serif;
+    margin:0;
+    background-color:antiquewhite
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+nav a
+{
+    font-weight: 600;
+    padding-right: 10px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98)
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    height: 50px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.St
+{
+    text-shadow: 0px 3px 5px rgb(145, 130, 98);
+    font-size:25px
+}
+
+nav a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:500px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    nav
+    {
+        padding: 10px 0px;
+    }
+    
+}
+/* Header inicio Fin*/
+
+/* BANNER 1*/
+.secbanner1{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98)
+}
+.secbanner1 h1{
+    font-size:30px
+}
+/* BANNER 1 Cierre*/
+
+/* BANNER 2*/
+.banner6seccion{
+    background-color:rgba(240, 193, 111, 0.902);
+    width: 98%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.banner6intro{
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+}
+.banner6textos{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+
+}
+.banner6textos h3{
+    font-size: 2.0em;
+    padding-bottom: 30px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98);
+    
+}
+.banner6textos p{
+    font-size: 1.6em;
+    padding-top: 20px;
+    border-style: groove;
+    border-width: 3px;
+    border-color: black;
+}
+/* Banner 2 cierre*/
+
+/* BANNER 4*/
+.secbanner4{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.secbanner4 h1{
+    font-size:25px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98)
+}
+/* BANNER 4 Cierre*/
+
+
+/* Banner 3 calendario*/
+.Caja{
+    display: flex;
+    width:98%;
+    margin-left: 15px;
+    margin-top: 8px;
+    background-color:rgba(240, 193, 111, 0.902);
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 16px;
+    justify-content: center;
+    align-items: center;
+}
+  
+  th, td {
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color:antiquewhite
+  }
+  
+  tr:nth-child(even) {
+    background-color:antiquewhite
+  }
+
+.ubicaciondiv{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}  
+/* Banner 3 calendario ciere*/
+
+/* Banner 5 Footer*/
+.footersection{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color:rgba(240, 193, 111, 0.902);
+}
+.footer{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-shadow: 0px 3px 5px rgb(145, 130, 98)
+}
+.footer p{
+    font-size: 15px;
+}
+
+
+/* Banner 5 Cierra*/
